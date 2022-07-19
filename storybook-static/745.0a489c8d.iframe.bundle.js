@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_kabzda_kak_podrobno=self.webpackChunkreact_kabzda_kak_podrobno||[]).push([[745],{"./node_modules/react-dom/client.js":function(__unused_webpack_module,exports,__webpack_require__){var m=__webpack_require__("./node_modules/react-dom/index.js");exports.createRoot=m.createRoot,exports.hydrateRoot=m.hydrateRoot}}]);

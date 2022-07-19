@@ -1,0 +1,10 @@
+.App {
+    width: 400px;
+    margin: 20px auto;
+    background: lightgreen;
+    padding: 10px;
+}
+
+.onStyle:hover, .offStyle:hover {
+    cursor: pointer;
+}
