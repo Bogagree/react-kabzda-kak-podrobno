@@ -7,6 +7,7 @@ export default {
 const NewMessagesCounter = (props: { count: number }) => {
     return <div>{props.count}</div>
 }
+
 const UsersSecret = (props: { users: Array<string> }) => {
     console.log('USERS')
     return <div>{

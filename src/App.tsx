@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import './App.css';
 import {Rating, RatingValueType} from "./Components/Rating/Rating";
 import UncontrolledAccordion from "./Components/Accordion/UncontrolledAccordion";
-import Accordion from "./Components/Accordion/Accordion";
 import UncontrolledOnOff from "./Components/UncontrolledOnOff/UncontrolledOnOff";
 import OnOff_2 from "./Components/OnOff/OnOff_2";
+
+
+
 
 
 const App = () => {
@@ -30,8 +32,8 @@ const App = () => {
             <OnOff_2 isOn={isOn} callback={switcher} />
 
             <hr/>
-            {/*<UncontrolledAccordion titleValue={"Menu (UncontrolledAccordion)"}/>*/}
-            {/*<Accordion titleValue={"Menu (Accordion)"} collapsed={collapsed} onChange={setCollapsed}/>*/}
+            <UncontrolledAccordion titleValue={"Menu (UncontrolledAccordion)"} collapsed={collapsed} onChange={setCollapsed} onClick={switcher} items={[]}/>
+            {/*<Accordion titleValue={"Menu (Accordion)"} collapsed={collapsed} onChange={setCollapsed} onClick={switcher} items={[]}/>*/}
 
             <hr/>
 

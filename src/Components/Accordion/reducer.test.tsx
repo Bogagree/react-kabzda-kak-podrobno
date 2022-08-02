@@ -29,7 +29,7 @@ test('collapsed should be false', () => {
 })
 
 
-test('Reducer shoud throw ERROR because type is incorrect', () => {
+test('Reducer should throw ERROR because type is incorrect', () => {
     const state: StateType = {
         collapsed: true
     }
